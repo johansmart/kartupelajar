@@ -1,0 +1,2 @@
+gunakan versi php v. 5.6
+xampp v. 3.2.1

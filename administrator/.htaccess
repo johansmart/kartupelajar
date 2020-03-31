@@ -1,0 +1,24 @@
+RewriteEngine on
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^inputpelajar$ pelajar_tambah.php [L]
+RewriteRule ^manajemenuser$ data_user.php [L]
+RewriteRule ^allpelajar$ data_pelajar.php [L]
+RewriteRule ^updatepelajar$ pelajar_ubah.php [L]
+RewriteRule ^deletepelajar$ aksi/pelajar/hapus.php [L]
+RewriteRule ^uploadpelajar$ pelajar_unggah.php [L]
+RewriteRule ^printkartupelajar$ cetak_kapel.php [L]
+RewriteRule ^printkartuperpus$ cetak_kaper.php [L]
+RewriteRule ^designkartu$ desain_kartu.php [L]
+RewriteRule ^downloadpelajar$ download/pelajar.php [L]
+RewriteRule ^templatekapel$ template_kapel.php [L]
+RewriteRule ^templatekaper$ template_kaper.php [L]
+RewriteRule ^tandatangan$ tanda_tangan.php [L]
+RewriteRule ^stempel$ stempel.php [L]
+RewriteRule ^updateusers$ user-ubah.php [L]
+RewriteRule ^updateindentitas$ identitas-ubah.php [L]
+RewriteRule ^setmenucetakkartupelajar$ blok_menu1.php [L]
+RewriteRule ^setmenucetakkartuperpus$ blok_menu2.php [L]
+RewriteRule ^logoutsystem$ logout.php [L]
+
+Options All -Indexes

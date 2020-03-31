@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^loginsystem$ index.php [L]
+RewriteRule ^maintanance$ view/404.php [L]
+RewriteRule ^about$ view/tentang-kami.php [L]
+RewriteRule ^tutorial$ view/tutorial.php [L]
+
+Options All -Indexes

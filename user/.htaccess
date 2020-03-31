@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^updatepelajar$ ubah_pelajar.php [L]
+RewriteRule ^updateakun$ ubah_akun.php [L]
+RewriteRule ^printkartupelajar$ cetak_kapel.php [L]
+RewriteRule ^printkartuperpus$ cetak_kaper.php [L]
+RewriteRule ^blokmenucetakkapel$ blok_menucetakkapel.php [L]
+RewriteRule ^blokmenucetakkaper$ blok_menucetakkaper.php [L]
+
+Options All -Indexes
